@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:fillViewport="true"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:name="com.example.myapplication.Fragment.Fragment_Banner"
+            android:id="@+id/fragment_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+        <fragment
+            android:id="@+id/fragment_chude_theloai"
+            android:name="com.example.myapplication.Fragment.fragment_chude_theloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </fragment>
+        <fragment
+
+            android:name="com.example.myapplication.Fragment.Fragment_PlayList"
+            android:id="@+id/fragment_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:name="com.example.myapplication.Fragment.Fragment_Album"
+            android:id="@+id/fragment_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:name="com.example.myapplication.Fragment.Fragment_BaiHat"
+            android:id="@+id/fragment_baihat_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

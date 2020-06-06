@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="#F193B3"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="8dp"
+            android:textSize="19sp"
+            android:text="1"
+            android:id="@+id/textviewdanhsachindexforsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imageviewhinhbaihatforsearch"
+            android:layout_margin="2dp"
+            android:layout_toRightOf="@+id/textviewdanhsachindexforsearch"
+
+            android:layout_width="80dp"
+            android:layout_height="70dp"/>
+        <TextView
+            android:id="@+id/textviewtenbaihatforsearch"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="GGGGGGGGGGGGGGG"
+            android:layout_toRightOf="@+id/imageviewhinhbaihatforsearch"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:layout_below="@+id/textviewtenbaihatforsearch"
+            android:id="@+id/textviewtencasiforsearch"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="ten ca si"
+            android:layout_toRightOf="@+id/imageviewhinhbaihatforsearch"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imageviewiconloveforsearch"
+            android:src="@drawable/iconlove"
+            android:layout_marginRight="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

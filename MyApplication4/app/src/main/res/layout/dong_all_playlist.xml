@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_margin="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <FrameLayout
+
+        android:layout_gravity="left"
+        android:id="@+id/framelayoutforplaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/imageviewallplaylist"
+            android:layout_width="180dp"
+            android:layout_height="180dp"/>
+
+
+    </FrameLayout>
+    <TextView
+        android:text="444444444444444"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:id="@+id/textviewtenallplaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
